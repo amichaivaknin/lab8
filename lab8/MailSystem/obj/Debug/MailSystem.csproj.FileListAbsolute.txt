@@ -1,0 +1,6 @@
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\MailSystem\bin\Debug\MailSystem.exe.config
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\MailSystem\bin\Debug\MailSystem.exe
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\MailSystem\bin\Debug\MailSystem.pdb
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\MailSystem\obj\Debug\MailSystem.csprojResolveAssemblyReference.cache
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\MailSystem\obj\Debug\MailSystem.exe
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\MailSystem\obj\Debug\MailSystem.pdb

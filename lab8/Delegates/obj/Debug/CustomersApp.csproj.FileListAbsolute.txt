@@ -1,0 +1,12 @@
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab7\CustomersApp\bin\Debug\CustomersApp.exe.config
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab7\CustomersApp\obj\Debug\CustomersApp.csprojResolveAssemblyReference.cache
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab7\CustomersApp\bin\Debug\CustomersApp.exe
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab7\CustomersApp\bin\Debug\CustomersApp.pdb
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab7\CustomersApp\obj\Debug\CustomersApp.exe
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab7\CustomersApp\obj\Debug\CustomersApp.pdb
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\Delegates\bin\Debug\CustomersApp.exe.config
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\Delegates\obj\Debug\CustomersApp.exe
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\Delegates\obj\Debug\CustomersApp.pdb
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\Delegates\bin\Debug\CustomersApp.exe
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\Delegates\bin\Debug\CustomersApp.pdb
+C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\lab8\Delegates\obj\Debug\CustomersApp.csprojResolveAssemblyReference.cache
