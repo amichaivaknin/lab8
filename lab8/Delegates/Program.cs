@@ -12,8 +12,8 @@ namespace CustomersApp
     {
         internal delegate bool CustomerFilter(Customer customer);
 
-        static Collection<Customer> GetCustomers(Collection<Customer> customers, 
-                CustomerFilter customerFilter)
+        //Didn't use IEnumerable and yield, nor ICollection
+        static Collection<Customer> GetCustomers(Collection<Customer> customers, CustomerFilter customerFilter)
         {
             List<Customer> localCustomers = new List<Customer>();
 
@@ -29,6 +29,7 @@ namespace CustomersApp
 
         public static bool CustomerFilterAK(Customer customer)
         {
+            //What about 'a' and 'k'? 
             string name = customer.Name;
             return name[0] >= 'A' && name[0] <= 'K';
         }
@@ -44,10 +45,16 @@ namespace CustomersApp
             customers.Add(new Customer(300, "Y", "Y"));
 
             CustomerFilter customerFilterAK = CustomerFilterAK;
+
+            //If you used IEnumerable<Customer> or ICollection<Customer>, then you wouldn't have to use this System.Collections.ObjectModel.Collection. It is for other uses.
             Collection<Customer> customersAK = GetCustomers(new Collection<Customer>(customers), customerFilterAK);
+
+            //Consider extracting this to another method
             foreach (var customer in customersAK)
             {
                 Customer forCustomer = customer;
+
+                //Why didn't you use ToStrin?
                 Console.WriteLine("Id:"+forCustomer.ID+" Name:"+forCustomer.Name
                                    +" Address:"+ forCustomer.Address);
             }
