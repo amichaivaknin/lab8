@@ -14,6 +14,8 @@ namespace MailSystem
         {
             EventHandler<MailArrivedEventArgs> eventHandler = MailArrived;
 
+            //Nice. though consider the useing of the new elvis operator:
+            //eventHandler?.Invoke(this, e);
             if (eventHandler != null)
             {
                 eventHandler(this, e);

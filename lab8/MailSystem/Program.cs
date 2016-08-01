@@ -8,6 +8,7 @@ namespace MailSystem
 {
     class Program
     {
+        //Where is the timer?
         static void Main(string[] args)
         {
             MailManager mailManager = new MailManager();
@@ -18,6 +19,7 @@ namespace MailSystem
 
         private static void MailArrivedCon(object sender, MailArrivedEventArgs e)
         {
+
             Console.WriteLine("Title: " + e.Title);
             Console.WriteLine("Body: " + e.Body);
         }
